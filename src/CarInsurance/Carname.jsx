@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import './carname.css';
+import './Carname.css';
 import { Link, useNavigate } from 'react-router-dom';
 
 function Carname() {
