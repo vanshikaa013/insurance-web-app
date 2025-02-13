@@ -1,0 +1,31 @@
+.click_check{
+.css-1k5jb55{
+    width: 66% !important;
+    margin: 20px auto !important; 
+}
+
+}
+@media (max-width:786px) {
+    .click_check{
+        .css-1k5jb55{
+            width: 100% !important;
+            margin: 20px auto !important; 
+            flex-direction: column !important   ;
+            button{
+                width: 100%  !important;
+                margin: 0 auto;
+            }
+        }
+    }
+    .healthmediabuttons{
+        max-width: 330px !important;
+    }
+    .bday_date{
+        width: 100% !important;
+    }
+}
+    .healthplanbtn:hover{
+        background-color: #bee2b1 ;
+        border: 1px solid #bee2b1 !important;
+    }
+    

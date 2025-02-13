@@ -1,0 +1,81 @@
+p{
+    /* font-size: 0.6rem; */
+    margin: 0;
+    color: #505f79;
+}
+
+.lifepricetag{
+    p{
+        font-size: 0.6rem;
+    }
+}
+
+.lifeplanmodal{
+
+    span{
+        font-size: 0.7rem;
+    }
+    }
+
+h6{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+@media (max-width:900px) {
+    .lifepricetag{
+        width: 100% !important;
+    }
+}
+@media (max-width:1050px) {
+    .Lifepricetagmedia{
+        flex-wrap: wrap;
+        .div{
+            width: 100%;
+            display: flex !important;
+            /* margin: 0 auto; */
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    .lifeplanmodalmedia{
+        .MuiBox-root{
+            width: 100% !important;
+        }
+        width: 100% !important;
+        display: flex !important;
+        .lifeplanmodalmediabox{
+            width: 54% !important;
+            text-align: center;
+            Box{
+                width: 100%;
+            }
+        }
+    }
+    .lifeplanmodalmediaboxplan{
+        display: none;
+    }
+    .lifeplanmodalmediaboxplantext{
+        display: none;
+    }
+    .lifemodlamedia{
+        display: block !important;
+    }
+    .lifemodladesktop{
+        display: none !important;
+    }
+}
+.lifemodladesktop{
+    display: block ;
+}
+.lifemodlamedia{
+    display: none ;
+}
+
+
+
+/* Custom style for the active tab */
+/* .nav-pills .nav-link.active {
+    border-bottom: 2px solid #000 !important;
+    border-radius: 0px !important;
+    background-color: transparent !important; 
+} */

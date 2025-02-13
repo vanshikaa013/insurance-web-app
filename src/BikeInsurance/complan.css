@@ -1,0 +1,43 @@
+/* @media (max-width:435px) {
+    .bajaj_img{
+        width: 100px;
+    }
+    .rupee{
+        padding: 8px !important;
+    }
+}
+@media(max-width:478px){
+    .rupee{
+       padding: 8px !important; 
+    }
+} */
+ @media(max-width:768x){
+    .three_product{
+        /* gap: 1rem !important; */
+        /* flex-direction: column; */
+    }
+ }
+ @media (max-width:768px) {
+    .bikrforminput{
+        input.form-control {
+            max-width: 100% !important;
+        }
+        .formcontrol1{
+            /* margin-
+            right: -120px !important; */
+        }
+        .input-group{
+            /* margin-left: 60px;
+        }
+        .formcontrol{
+            min-width: 330px !important ;
+            width: 100% !important;
+            margin-left: auto !important;
+            margin-right: auto  !important; */
+        }
+    }
+ }
+ .bikrforminput{
+    input.form-control {
+        max-width: 100% !important;
+    }}

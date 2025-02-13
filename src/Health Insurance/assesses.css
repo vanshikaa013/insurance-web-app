@@ -1,0 +1,58 @@
+.year_bttn{
+  color: #000 !important;    
+  width: 50% !important;
+}
+@media (max-width:786px) { 
+  .mirate-mediass{
+    .css-1k5jb55{
+      width: 100% !important;
+  margin: 20px auto !important; 
+  flex-direction: column !important   ;
+  button{
+    width: 100%  !important;
+    margin: 0 auto;
+  }
+  }
+}}
+.country_cod-bttn{
+  background-color: #fff;
+  border: 1px solid forestgreen;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 80%;
+}
+.nxt-plan{
+  background-color: #003d2b;
+  width: 80%;
+  border: 1px solid #003d2b;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.healthplanbtn:hover{
+  background-color: #bee2b1 ;
+  border: 1px solid #bee2b1 !important;
+}
+@media (max-width:786px) {
+.assesflex{
+  
+  .css-5a9cnw{
+    flex-direction: column;
+  }
+  .css-5a9cnw{
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+  }
+  .healthmediabuttons{
+    max-width: 330px !important;
+  }
+  .year_bttn{
+    color: #000 !important;    
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  }
+}
+/* ======================== */

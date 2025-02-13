@@ -1,0 +1,65 @@
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    
+}
+.card-title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.hello{
+    display: block;
+    border-radius: 25px;
+    width: 92%;
+    margin: 0 auto;
+}
+.hello2{
+    display: block;
+    border-radius: 25px;
+}
+.review{
+    border-radius: 25px 25px 0px 0px;
+}
+
+@media screen and (max-width: 575px) {
+   
+    
+
+  }
+
+  .review{
+    height: 200px;
+  }
+  .reviews{
+    position: relative;
+    margin-top: 30px;
+    padding-top: 50px;
+      .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+          display: none;
+        }
+    }
+
+
+
+
+
+
+
+    .unique-prev-btn, .unique-next-btn {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+  }
+  
+  .unique-prev-btn {
+      left: 15px; /* Adjust as needed */
+  }
+  
+  .unique-next-btn {
+      right: 15px; /* Adjust as needed */
+  }
+  

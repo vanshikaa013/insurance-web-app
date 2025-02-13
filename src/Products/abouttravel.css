@@ -1,0 +1,32 @@
+.nav-pills {
+    border-right: 2px solid #000 !important;
+    padding-right: 1rem;
+    border-bottom: none !important;
+}
+
+.my-fontspera {
+    font-size: 14px;
+}
+
+.accordion-button {
+    font-size: 16px !important;
+    color: #002d2b !important;
+}
+
+.my-mode .modal-content {
+    border-radius: 0px !important;
+}
+
+.nav-pills .nav-link.active {
+    font-weight: 500;
+    color: #002d2b !important;
+    background-color: #fff !important;
+}
+@media(max-width:991px){
+    .btn-font-cng{
+        font-size: 12px !important;
+    }
+    .my-fontspera{
+        font-size: 11px;
+    }
+}

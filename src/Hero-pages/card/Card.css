@@ -1,0 +1,136 @@
+.card-slider{
+    width: 100%;
+    margin-top: 30px;
+}
+.card-slider-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-slider-box{
+    width: 31%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-slider-box img{
+    width: 100%;
+}
+
+.card-slider-button-prev{
+  color: #000 !important;
+  background-color: #FFFFFF !important;
+  box-shadow: 0 4px 11px 0 #cdd6e1;
+}
+.card-slider-button-next{
+  color: #000 !important;
+  background-color: #FFFFFF !important;
+  box-shadow: 0 4px 11px 0 #cdd6e1;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #003d2b;
+  margin-top: 100px !important;
+  top: 100px !important;
+  /* display: none; */
+}
+
+.card-slider-image-wrapper{
+  max-width: 100%;
+  padding: 0;
+  margin-left: -20px;
+}
+@media (max-width: 767px) {
+
+  .card-slider-image-wrapper{
+    margin-left: 0;
+  }
+}
+@media (min-width:400px)  and (max-width:500px){
+  .card-slider-container{
+    margin-bottom: 40px !important;
+  }
+}
+@media (min-width:500px)  and (max-width:769px){
+  .card-slider-container{
+    margin-bottom: 140px !important;
+  }
+}
+@media (min-width:1050px)  and (max-width:1200px){
+  .card-slider-container{
+    margin-bottom: 100px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-slider-container {
+  margin-top:50px;
+  padding-top: 20px;
+    position: relative;
+  }
+  
+  .card-slider-button-prev, 
+  .card-slider-button-next {
+    position: absolute;
+    top: 10px;
+    right: 60px; /* Adjust spacing if needed */
+    width: 40px;
+    height: 40px;
+    background-color: #003d2b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+   
+  }
+  
+  .card-slider-button-next {
+    right: 10px;
+  }
+  
+  .card-slider-button-prev:hover,
+  .card-slider-button-next:hover {
+    background-color: 003d2b;
+    color: white;
+  }
+  
+  .card-slider-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+  .card-slider-image {
+    width: 100%;
+  }
+  
+  /* .card-slider-image {
+    width: 340px;
+  }
+   */
+
+
+
+
+.card-slide-b-dt-n{
+
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+  }
+}

@@ -1,0 +1,93 @@
+.accordion-button{
+    color: #003D2B;
+    font-weight: 600;
+    font-size: 20px;
+}
+.askmt{
+    margin-top: 40px !important;
+}
+.safe{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E727B;
+}
+.join{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.health {
+    display: block; 
+  }
+.accordion-button:not(.collapsed){
+    background-color: #fff; 
+    border: none !important;
+}
+.accordion-button::after{
+    font-weight: 800;
+}
+
+  @media screen and (max-width: 768px) {
+    .health {
+        display: none;
+      }
+  }
+  @media screen and (max-width: 1024px) {
+
+    .safe{
+        font-size: 14px;
+    }
+    .join{
+        font-size:10px;
+
+    }
+    .accordion-button{
+        font-size: 14px;
+    }
+
+  }
+
+  .accordion-button::after{
+    display: none;
+  }
+
+  .accordion-button {
+    border: none; /* Remove the default border */
+    padding: 1rem; /* Adjust padding as needed */
+}
+.accordion{
+    border: none !important;
+    --bs-accordion-border-color: none;
+}
+.accordion-item hr{
+    border-bottom: 2px solid #ccc;  
+     width: 95%;
+    margin: 0 auto;
+} 
+
+.accordion-button:not(.collapsed) {
+    border-bottom: none; /* Remove the bottom border when expanded */
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Remove the focus box-shadow */
+}
+
+
+  @media (max-width:768px) {
+    .m-n-d-s{
+        width: 100% !important;
+    }
+  }
+  @media (min-width:769px) and (max-width:1306px) {
+    .m-d-a-img{
+        width: 50%;
+        text-align: center;
+        img{
+            width: 90%;
+            height: 550px;
+        }
+    }
+  }
+
+  

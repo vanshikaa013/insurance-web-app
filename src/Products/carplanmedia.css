@@ -1,0 +1,98 @@
+.carplanmediaheader {
+  p {
+    font-size: 10px;
+    border: 1px solid #f5f5f5;
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
+
+.car-plans-nav-bar-media {
+  justify-content: space-between !important;
+  .nav_tabs_ {
+    width: 100%;
+    align-content: center !important;
+    display: flex !important;
+    li {
+      button {
+        font-size: 10px !important;
+        padding: 8px !important;
+        margin: 6px;
+        border-radius: 8px !important;
+        background: #f5f5f5;
+      }
+    }
+  }
+}
+.css-1mznorz {
+  width: 96% !important;
+  padding: 10px 10px !important;
+}
+.car-plans-nav-bar-media {
+  .css-1usuzwp-MuiButtonBase-root-MuiTab-root {
+    padding: 0px !important;
+  }
+}
+.car-value-ZAR {
+  div {
+    align-content: center !important;
+    /* background-color: #bee2b1; */
+    padding: 8px;
+    border-radius: 8px;
+    ul {
+      align-items: center !important;
+      padding: 0px !important;
+      margin-bottom: 0px !important;
+    }
+  }
+}
+.insucardacko {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #f5f5f5;
+}
+.dnjsnbdjh {
+  padding: 10px;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  img {
+    width: 80px;
+  }
+}
+.gdudgiayudiefhdf {
+  align-items: center !important;
+  align-content: center !important;
+}
+
+.list_garage_ {
+  background-color: #f2f4fe;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-size: 10px;
+  color: #000;
+}
+
+.edit-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 55px;
+  border: 2px solid #003D2B;
+  cursor: pointer;
+}
+
+.healthinput {
+  /* width: 140%; */
+}
+
+.form-check-input:checked {
+  background-color: #003d2b;
+  border-color: #003d2b;
+}
+.form-check-input{
+  border: 1px solid #000;
+}

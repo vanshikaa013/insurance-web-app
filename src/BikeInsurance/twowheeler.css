@@ -1,0 +1,23 @@
+.price_vbtn{
+    background-color: #003d2b;
+    padding: 14px;
+    border-Radius:6px;
+    border:1px solid darkgrey;
+    width: 100%;
+    color: #fff;
+}
+
+@media (max-width:991px){
+    .buy_two{
+        font-size: 14px !important;
+    }
+}
+@media (max-width:767px){
+    .kapil-Img{
+       width: 50%;
+    }
+    .box_one{
+      text-align: center;
+    }
+
+}

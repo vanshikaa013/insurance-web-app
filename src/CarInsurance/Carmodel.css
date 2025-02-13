@@ -1,0 +1,10 @@
+@media (max-width:992px){
+    .buy_inc{
+        display: none;
+    }
+   
+}
+
+.red-border {
+    border: 2px solid red;
+}

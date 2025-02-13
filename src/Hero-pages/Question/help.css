@@ -1,0 +1,93 @@
+/* .have{
+    font-weight: 700;
+    font-size: 36px;
+}
+.help{
+    font-size: 36px;
+    font-weight: 400;
+}
+.oldmen{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .m-a-i-f{
+        width: 100%;
+    }
+    .oldmen {
+      display: none;
+    }
+
+  }
+@media (min-width:768px) and (max-width:1194px) {
+    .m-b-f-img{
+        width: 50%;
+        text-align: center;
+    }
+    .m-b-f-img div{
+        width: 100%;
+    }
+    .oldmen{
+        width: 90% !important;
+    }
+} */
+
+
+
+
+
+
+
+
+.have{
+    font-weight: 700;
+    font-size: 36px;
+}
+.help{
+    font-size: 36px;
+    font-weight: 400;
+}
+.oldmen{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .m-a-i-f{
+        width: 100%;
+    }
+    .oldmen {
+      display: none;
+    }
+
+  }
+@media (min-width:768px) and (max-width:1194px) {
+    .m-b-f-img{
+        width: 50%;
+        text-align: center;
+    }
+    .m-b-f-img div{
+        width: 100%;
+    }
+    .oldmen{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .lkjh {
+      font-size: 14px !important; /* Adjust font size */
+    }
+    .have,.help{
+        font-size: 21px !important;
+    }
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .car_health{
+        width: 100%;
+    }
+  }

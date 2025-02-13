@@ -1,0 +1,102 @@
+/* .mysi{
+    background-color: #F5F5F5;
+    border-radius: 15px;
+}
+.mypera{
+    font-size: 13px;
+}
+.advantage{
+    width: 100px;
+}
+@media (max-width: 500px) {
+    .advantage {
+      width: 50px !important;
+      height: 50px !important;
+    }
+    .girl {
+      display: none;
+    }
+}
+  
+.girl{
+    width: 100%;
+    display: block;  
+} */
+
+
+
+
+
+
+.mysi{
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.mypera{
+    font-size: 13px;
+}
+.advantage{
+    width: 100px;
+}
+
+.girl{
+    width: 100%;
+    display: block;  
+}
+.mytag{
+    font-size: 30px;
+    font-weight: 400;
+}
+.mypera{
+    font-size: 16px;
+    line-height: 1.6; 
+}
+
+@media (max-width: 500px) {
+    .advantage {
+      width: 50px !important;
+      height: 50px !important;
+      margin-bottom: 10px;
+    }
+    .mytag{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .girl {
+      display: none;
+    }
+}
+  
+@media (max-width: 575px) {
+     .girl {
+      display: none;
+    }
+    .mypera{
+        font-size: 14px;
+    }
+    
+    
+
+}
+ @media (min-width: 575px) {
+    .mytag {
+     font-size:20px;
+   }
+   
+   .girl{
+    width: 240px;
+    margin-left: -45px;
+   }
+
+}
+@media (min-width:768px) {
+       .girl{
+        width: 100%;
+        float: right;
+       }
+}
+
+
+

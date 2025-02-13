@@ -1,0 +1,29 @@
+@media (max-width: 586px) {
+  .texts p {
+    font-size: 13px;
+  }
+  .yet {
+    font-size: 12px;
+  }
+}
+
+.yet {
+  font-size: 14px;
+}
+
+.call {
+  font-size: 20px;
+}
+
+
+.policy-nav-page{
+  .arrow{
+    padding-bottom: 32px;
+  }
+  .swiper img{
+    padding-bottom: 10px;
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    margin-bottom: -15px;
+  }
+}

@@ -1,0 +1,49 @@
+
+    .css-rizt0-MuiTypography-root{
+        text-align: start !important;
+    }
+    .stepper {
+        .line {
+          width: 2px;
+          background-color: lightgrey !important;
+        }
+        .lead {
+          font-size: 1.1rem;
+        }
+      }
+      .hel_whats{
+        font-size: 13px;
+      }
+
+
+      @media(max-width:476px){
+        .my-li_{
+            font-size: 9px !important;
+        }
+        .my-pera_{
+            font-size: 12px !important;
+        }
+
+      }
+      @media(max-width:500px){
+        .sbsjdsjlsjs{
+            flex-direction: column !important;
+        }
+        .my-li_1{
+            flex-direction: column !important;
+            width: 100% !important;
+        }
+        .asdfgh{
+           margin-top: 20px !important;
+           margin-right: 20px;
+        }
+        .mail-med{
+            font-size: 12px !important;
+        }
+        .hel_whats{
+            font-size: 13px !important;
+        }
+        
+      }
+
+      

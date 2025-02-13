@@ -1,0 +1,24 @@
+
+  header h5 {
+    font-size: 1.2rem; /* Default for smaller screens */
+  }
+  
+  header p {
+    font-size: 0.9rem; /* Default for smaller screens */
+  }
+  
+  @media (min-width: 768px) {
+    header h5 {
+      font-size: 1.5rem; /* Larger font for medium+ screens */
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width:786px) {  
+    .bikemedia-nav{
+      padding-left: 32px !important;
+    }
+  }
+  

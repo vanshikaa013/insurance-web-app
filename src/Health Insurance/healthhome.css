@@ -1,0 +1,89 @@
+/* General Styles */
+.insurance_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .insurance_buttons h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .insurance_buttons .btn_option {
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: forestgreen;
+    background-color: #fff;
+    border: 1px solid forestgreen;
+    color: black !important;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .insurance_image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .invest_or{
+    display: block;
+    width: 100% !important;
+  }
+  .proceed_btn{
+    width: 200px;
+    width: 100% !important;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff !important;
+    background-color: #003d2b !important;
+    border: 1px solid #bee2b1 !important;
+    margin-left: 3px;
+    border-radius: 5px;
+    cursor:
+     pointer;
+  }
+
+  .stats-value{
+    color: #003d2b !important;
+  }
+  @media (max-width:768px){
+    .insurance_image{
+      display: none;
+    }
+    
+  }
+  @media (max-width:430px){
+    .insurance_buttons .btn_option{
+    width: 100% !important;  
+    }
+  }
+
+  @media (max-width:479px){
+    .p_txt{
+      font-size: 13px !important;
+    }
+  }
+  @media (max-width:1200px){
+    .hello_bg{  
+    display: none;
+    }
+  }
+
+  .hello_bg{
+    background-color: #fafcff;
+  }
+  .color_chng{
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+  }

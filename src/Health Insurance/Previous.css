@@ -1,0 +1,15 @@
+@media (max-width:786px) {
+    .previouse-media{
+
+        width: 100% !important; 
+    }
+    
+}
+.css-qxc2i0-MuiButtonBase-root-MuiButton-root{
+    background-color: #003d2b !important;
+    color: #fff !important;
+}
+.healthplanbtn:hover{
+    background-color: #bee2b1 ;
+    border: 1px solid #bee2b1 !important;
+}

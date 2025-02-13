@@ -1,0 +1,37 @@
+.exisiting-css{
+    width: 100% !important;
+    position: relative;
+
+}
+.icn-exixiting-left{
+    position: absolute;
+    top: 80px !important;
+}
+.icn-exixiting-right{
+    position: absolute;
+    top: 80px !important;
+    right: 10px !important;
+}
+@media (max-width:600px) {
+    .exisiting-css{
+        width: 100% !important;
+        position: relative;
+    
+    }
+    .icn-exixiting-left{
+        position: absolute;
+        top: 140px !important;
+    }
+    .icn-exixiting-right{
+        position: absolute;
+        top: 140px !important;
+        right: 10px !important;
+    }
+}
+.css-3hpdci-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+   color: #003d2b !important;
+}
+.healthplanbtn:hover{
+    background-color: #bee2b1 ;
+    border: 1px solid #bee2b1;
+}

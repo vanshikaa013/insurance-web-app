@@ -1,0 +1,436 @@
+.mycolor {
+    color: #003d2b !important;
+}
+body{
+        font-family: "Poppins", sans-serif;
+        /* font-weight: 400; */
+        /* font-style: normal; */
+     
+}
+
+.main-heading {
+    font-weight: 600 !important;
+    font-size: 30px;
+}
+
+.sub-heading {
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    color: #000 !important;
+}
+
+.little-heading {   font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 767px) {
+    .main-heading {
+        font-size: 28px !important;
+    }
+}
+@media (max-width:500px) {
+    .mob-insurence-slide{
+        /* height: 180px ; */
+    }
+}
+    @media (max-width:767px) {
+    
+    .mob-insurence-slide{
+        display: block !important;
+    }
+    .desk-insurence-slide{
+        display: none !important;
+    }
+}
+@media (min-width:768px) {
+    .desk-insurence-slide{
+        display: block;
+    }
+    .mob-insurence-slide{
+        display: none !important;
+    }
+    }
+
+.desknavbar {
+    display: block;
+}
+
+.mobnavbar {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .mobnavbar {
+        display: block;
+    }
+
+    .desknavbar {
+        display: none;
+    }
+
+}
+
+/* trevel product css */
+
+/* Styling for travel insurance UI */
+.travel-home-container {
+    background-color: #f5f9ff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 1250px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.travel-home-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #1f3c88;
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.travel-home-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.travel-home-icon {
+    font-size: 2.5rem;
+    color: #4caf50;
+}
+
+.travel-home-icon-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 8px;
+    color: #333;
+}
+
+.travel-home-card {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.travel-home-card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #003d2b;
+    margin-bottom: 15px;
+}
+
+.travel-home-price {
+    font-weight: bold;
+    color: #4caf50;
+    font-size: 1.3rem;
+}
+
+.travel-home-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 18px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+
+
+}
+
+.travel-home-button:hover {
+    background-color: #ff5722;
+    color: white;
+}
+
+.travel-home-ratings {
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.travel-home-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.travel-tyep2 {
+    background-color: white;
+    width: 100%;
+    border: 1px solid #003d2b;
+    color: #003d2b;
+    flex-direction: column;
+
+}
+
+.travel-tyep2:hover {
+    background-color: #f5f9ff;
+    box-shadow: inset;
+    border: 1px solid #003d2b;
+}
+
+@media (max-width: 767px) {
+    .trevel-home-img {
+        display: none;
+    }
+
+}
+
+.breadcrumbcontainer {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Additional styling for travel-home-ratings section */
+.travel-home-ratings {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9fbff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.travel-home-ratings h6 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #003d2b;
+}
+
+.travel-home-ratings span {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.travel-home-ratings .rating-stars {
+    color: #f1c40f;
+    margin-left: 5px;
+}
+
+.travel-home-ratings .rating-info {
+    font-weight: 600;
+    color: #333;
+}
+
+@media (max-width: 576px) {
+    .travel-home-ratings span {
+        display: block;
+        margin: 4px 0;
+    }
+}
+
+.trevel-rat span {
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+.text-primary{
+    color: #003d2b !important;
+}
+
+@media (max-width:786px) {
+    
+    .carnation{
+        .carnation-data{
+    flex-direction: column;
+    div{
+        width: 100% !important;
+    }
+}   
+}
+.carnation-data{
+    flex-direction: column;
+    div{
+        width: 100% !important;
+    }
+}
+.carbuyinmo-data{
+    flex-direction: column;
+    a{
+        width: 100% !important;
+    }
+}
+.carbuyinyo-data{
+    flex-direction: column;
+    div{
+        width: 100% !important;
+    }
+}
+.travel-plans-bav-barul{
+    flex-direction: row !important;
+    display: flex !important;
+    li{
+        display: none;
+    }
+}
+.colmd9displaytravel{
+    width: 100% !important;
+}
+.colmd9displaytraveldflex{
+    flex-direction: column !important;
+}
+.colmd9displaytraveldflex1{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    div{
+        flex-direction: column !important;
+
+    }
+}
+.colmd9displaytraveldflex2{
+    width: 100% !important;
+}
+.colmd9displaytraveldflex3{
+    bottom: -40px !important;
+}
+.colmd9displaytraveldflex4{
+    margin-top: 50px;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.colmd9displaytraveldflexd-n{
+    display: block !important;
+}
+}
+.colmd9displaytraveldflexd-n{
+    display: none;
+}
+
+.css-13vpke-MuiSlider-root{
+    color: #003d2b !important;
+}
+.css-oewvya-MuiTabs-indicator {
+    background-color: #003d2b !important;
+}
+input.form-control:active{
+    border: 1px solid #003d2b !important;
+}
+.css-124afma.Mui-completed{
+    color: #003d2b !important;
+}
+
+
+
+
+
+
+::selection {
+    background-color: #003d2b;
+    color: white;
+  }
+
+  @media (max-width:900px) {
+  .colmd9displaytraveldflex34dhesjd{
+    display: block !important;
+  }
+  .travelplanmediagovimd{
+    display: none !important;
+  }
+  }
+  .colmd9displaytraveldflex34dhesjd{
+    display: none ;
+  }
+  .colmd9displaytraveldflex34dhesjdbddj{
+    display: block !important;
+  }
+
+
+
+
+
+
+
+
+  .css-1peo4km-MuiPaper-root-MuiDialog-paper {
+    border-radius: 0px !important;
+  }
+  .css-dii8gh-MuiButtonBase-root-MuiButton-root{
+    background-color: #003d2b !important;
+    border-radius: 0px !important;
+  }
+  .css-1pgde3d-MuiButtonBase-root-MuiButton-root{
+    border-radius: 0px !important;
+  }
+  .css-lf63uw{
+    gap: 8px !important;
+  }
+  .css-wvgh3h {
+    border: none !important;
+    border-left: 1px solid #e7e7e7 !important;
+    border-radius: 0px !important;
+  }
+  .css-163v3sq{
+    justify-content: end !important;
+  }
+  .css-1xtrmrf {
+    margin-top: 10px;
+    }
+
+
+
+
+
+    /* hover */
+    .buttonsplans:hover{
+        background-color: #bee2b1 !important;
+        border: #bee2b1 !important;
+    }
+
+
+
+    @media (max-width:900px) {
+        .h1,.h2,.h3,.h4,.h5{
+            font-size: 21px !important;
+        }
+        .p{
+            font-size: 20px !important;
+            font-weight: 500;
+        }
+        .spanmp{
+            font-size: 15px !important;
+            margin-top: 10px;
+        }
+        .f-f h5{
+            line-height: 44px !important;
+        }
+        .f-f-box-data p{
+            font-size: 14px;
+        }
+    }
+    @media (max-width:786px) {
+        
+        .car_namesplan{
+            width: 100% !important;
+        }
+    }

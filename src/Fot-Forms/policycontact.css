@@ -1,0 +1,75 @@
+.mybtn {
+    background-color: #BEE2B1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+     text-align: left;
+}
+.helpera{
+    font-size: 12px;
+    color: #6E727B;
+    margin-top: revert-layer;
+    /* margin-left: 20px; */
+}
+.coninc{
+    padding: 20px;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.cll{
+    float: left;
+    
+}
+.newp{
+    float: right;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.myoff{
+    background-color: #BEE2B14D;
+    border: 2px dotted #959595; 
+}
+.offer{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+
+}
+.text-muted{
+    color:#000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.explore{
+    color: #0065FF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.myclll{
+    float: right;
+     background-color:#BEE2B180 ;
+     padding: 10px;
+     border-radius: 5px;
+}
+.media-nav-acr{
+    border: 1px solid black !important  ;
+    padding: 6px 26px !important;
+    border-radius: 10px !important;
+     margin: 0px 10px 20px 10px !important;
+}
+.media-navber-acrty{
+    padding-top: 0px;
+}
+
+
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #fff !important;
+    background-color: #003d2b !important;
+}

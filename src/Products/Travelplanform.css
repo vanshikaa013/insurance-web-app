@@ -1,0 +1,29 @@
+.travelformcss{
+    display: block !important;
+}
+.form-select{
+    padding:10px;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 4px;
+}
+.form-control{
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 100%;
+
+}
+
+@media (max-width:991px) {
+    .mydis_non{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .form-lable{
+        margin-bottom: 10px;
+    }
+}
+
+

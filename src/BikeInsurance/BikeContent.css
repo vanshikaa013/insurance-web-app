@@ -1,0 +1,81 @@
+.terms p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #52617a;
+    line-height: 1.4rem;
+}
+
+
+.terms h6{
+    color: #253858;
+  font-weight: 600;
+  padding: 0;
+}
+
+.terms h5{
+    color: #253858;
+  display: block;
+  float: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin: 0 0 15px;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* content */
+
+/* BikeContent.css */
+
+/* Styling the breadcrumb navigation */
+.breadcrumb-link {
+    color: #000; /* Black color for breadcrumb links */
+    text-decoration: none;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-icon {
+    margin-left: 5px;
+    color: #000; /* Black color for icon */
+  }
+  
+  .breadcrumb-current {
+    color: #555; /* Slightly lighter for the current breadcrumb */
+  }
+  
+  /* Accordion styling */
+  .accordion-item {
+    border-bottom: 1px solid #ddd; /* Border at the bottom of each item */
+  }
+  
+  .accordion-button {
+    background-color: #fff; /* White background for button */
+    color: #000; /* Black color for text */
+    border: none;
+    font-weight: bold;
+  }
+  
+  
+  
+  .accordion-body {
+    color: #555; /* Text color for accordion body */
+  }
+
+  .accordion-button::after {
+    content: '\f078'; /* Font Awesome chevron down */
+    font-family: 'Font Awesome 5 Free'; /* Use Font Awesome for icons */
+    font-weight: 900; /* Ensure it's the solid version */
+    color: #000; /* Black color for the icon */
+    transition: transform 0.2s ease-in-out; /* Smooth rotation */
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg); /* Rotate chevron when expanded */
+  }
+  
+  

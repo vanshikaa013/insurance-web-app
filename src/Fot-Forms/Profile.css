@@ -1,0 +1,96 @@
+.background {
+  background: linear-gradient(
+    90deg,
+    rgba(181, 234, 240, 1) 0%,
+    rgba(233, 183, 233, 1) 35%,
+    rgba(193, 223, 230, 1) 100%
+  );
+  height: 370px;
+  width: 100px;
+}
+
+.png img {
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  right: 1px;
+}
+
+.png {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.sohail p {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.User h6 {
+  font-weight: bold;
+}
+
+.User {
+  height: auto;
+  background-color: white;
+}
+
+@media (max-width: 586px) {
+  .User {
+    height: auto;
+    background-color: white;
+    width: 95%;
+  }
+}
+
+@media (max-width: 320px) {
+  .User {
+    background-color: white;
+  }
+  .vehicle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .User {
+    height: auto;
+  }
+  .name {
+    margin-left: 40px;
+  }
+}
+
+.icn {
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+.icns {
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+
+.icon {
+  position: relative;
+  right: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media (max-width: 586px) {
+  .Profile{
+
+    .swiper img {
+      width: 100%;
+    }
+  }
+}

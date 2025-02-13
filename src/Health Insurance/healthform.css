@@ -1,0 +1,137 @@
+.circle {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ccc;
+  }
+
+  .bg-success {
+    border-color: #28a745;
+  }
+
+  .step p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  input::placeholder {
+    font-size: 14px;
+  }
+
+  .input-group-text {
+    font-size: 14px;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid #ccc;
+  }
+
+  .bg-success {
+    border-color: #28a745;
+  }
+
+  .step p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+
+input.form-control {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+ .btn-continue {
+    background-color: #ff5722; /* Orange color */
+    color: white;
+    font-weight: bold;
+  width:35%;
+
+    
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  
+
+ @media (max-width:768px) {
+    
+    .btn-continue{
+        width: 50%;
+    }
+    .none{
+        display: none;
+    }
+
+ }
+
+@media (max-width : 820px) {
+    
+   .btn-continue{
+    width: 50%;
+   }
+
+
+}
+
+@media (max-width: 1024px) {
+    
+ .btn-continue{
+    width: 42%;
+   }
+
+
+
+}
+
+@media (max-width : 912px) {
+
+    .btn-continue{
+    width: 48%;
+   }
+    
+}
+
+@media (max-width : 540px) {
+
+    .btn-continue{
+    width: 78%;
+   }
+    
+}
+@media (max-width : 344px) {
+
+    .btn-continue{
+    width: 90%;
+   }
+    
+}
+
+@media (min-width : 541px) and (max-width : 768px) {
+
+    .btn-continue{
+    width: 78%;
+   }
+    
+}
+
+@media (max-width:450px){
+  .step_main{
+    display: none;
+  }
+  
+}

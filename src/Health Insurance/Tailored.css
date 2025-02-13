@@ -1,0 +1,106 @@
+.tailored{
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    button{
+        border-radius: 5px !important;
+        width: 99% !important;
+        margin-top: 20px !important;
+        border: 1px solid #003d2b !important;
+        /* padding: 8px 12px !important; */
+    }
+}
+.tailroadmain{
+flex-direction: column !important;
+}
+.tailored-male{
+    width: 100%;
+    justify-content: space-between !important;
+    button{
+        width: 99%;
+        gap: 5px;
+        border: 1px solid #003d2b !important;
+        border-radius: 5px !important;
+        /* padding: 8px 12px !important; */
+    }
+}
+@media (max-width:786px) {
+    .css-5sznmz{
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+}
+.my_gender{
+    background-color: #fff;
+    border: 1px solid forestgreen;
+    padding:10px;
+    border-radius: 5px;
+    width: 25%;
+    margin-left: 5px;
+}
+.bday_date{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid forestgreen;
+}
+.con_bttn-plan{
+    background-color: #003d2b;
+    color: #fff;
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+.selected {
+    background-color: #003d2b;
+    color: white;
+}
+#healthplanbtn:hover{
+    background-color: #bee2b1 ;
+    border: 1px solid #bee2b1 !important;
+}
+
+
+/* ============================================================ */
+
+
+@media(max-width:714px){
+    .few_det{
+        font-weight:700 !important;
+        font-size: 14px !important;
+    }
+   
+}
+
+@media(max-width:767px){
+    .my_gender,.con_bttn-plan{
+        width: 48% !important;
+    }
+    .tailriodform{
+        .css-11a8txn-MuiStack-root {
+            max-width: 330px;
+            margin: 0 auto;
+        }
+        .css-jupps9-MuiInputBase-root-MuiOutlinedInput-root{
+            margin: 0px !important;
+            max-width: 100% !important;
+        }
+    }
+}
+.tailriodform{
+    .css-1b1fjlj-MuiFormControl-root-MuiTextField-root{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 530px !important;
+    }
+    .css-11a8txn-MuiStack-root {
+        margin: 0 !important;
+    }
+    .css-jupps9-MuiInputBase-root-MuiOutlinedInput-root{
+        /* margin: 0px !important; */
+        /* max-width: 100% !important; */
+    }
+}

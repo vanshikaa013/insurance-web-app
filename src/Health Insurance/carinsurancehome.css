@@ -1,0 +1,117 @@
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .feature-item img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .form-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  .slider-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .rating-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .stars {
+    color: #ffc107; /* Gold color for stars */
+  }
+  .statistics {
+    display: flex;
+    gap: 20px;
+  }
+  .statistics div {
+    text-align: center;
+  }
+  .statistics div h5 {
+    margin: 0;
+    color: #007bff; /* Blue color for numbers */
+    font-weight: bold;
+  }
+  .statistics div small {
+    display: block;
+    color: #6c757d; /* Gray color for description */
+  }
+  
+  @media (max-width: 768px) {
+    .men {
+      display: none;
+    }
+  }
+  
+  .instant {
+    display: flex;
+    flex-direction: column; /* Default: vertical layout */
+    gap: 10px; /* Spacing between items */
+  }
+  
+  .last-btn {
+    background-color: #d3dffd;
+    color: #102e76;
+    border: 2px solid #acc1f3;
+  }
+  
+  @media (max-width: 768px) {
+    .instant {
+      flex-direction: row; /* Responsive: horizontal layout */
+      flex-wrap: nowrap; /* Items ek line me rehengi */
+      justify-content: space-between; /* Space between items */
+      align-items: center; /* Center alignment vertically */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .top-content {
+      text-align: center;
+    }
+  
+    .statistics h5 {
+      font-size: 10px;
+    }
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-item img {
+    margin-right: 10px; /* Space between the image and the text */
+  }
+  
+  @media (max-width: 768px) {
+    .feature-item {
+      flex-direction: column; /* Stack image and text vertically on smaller screens */
+      align-items: center; /* Center the content horizontally */
+    }
+  
+    .feature-item img {
+      margin-right: 0; /* Remove margin when stacked */
+      margin-bottom: 5px; /* Space between image and text */
+    }
+  }
+  
+  
+  @media  (min-width: 992px) and (max-width : 1024px){
+    .header h3 {
+      font-size: 15px;
+      position: relative;left: 20px;
+    }
+  }
+  
